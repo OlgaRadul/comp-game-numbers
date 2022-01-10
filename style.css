@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1504177847824-d075f5706770?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdhbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: right bottom;
+    background-color:  blue;
+
+}
+#container{
+    background-color: rgb(206, 223, 255);
+    border: 3px solid rgb(127, 183, 247);
+    width: 30%;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+#guess{
+    padding: 10px;
+    width: 40%;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+#btn{
+    background-color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+
+}
+
+@media all and (max-width: 1100px){
+    #guess{
+        width: 300px;
+        
+    }
+    #container{
+        width: 400px;
+        margin-left: 150px;
+
+    }
+   
+   }
+
+@media all and (max-width: 800px){
+    #guess{
+        width: 200px;
+        
+    }
+    #container{
+        width: 300px;
+        margin-left: 50px;
+
+    }
+}
+
+@media all and (max-width: 500px){
+    #guess{ 
+        width: 200px;
+    }
+    #container{
+        width: 300px;
+        margin-left:0px;
+
+    }
+        
+}
